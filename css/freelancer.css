@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arvo', serif;
   overflow-x: hidden;
 }
 p {
@@ -26,8 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'Arvo', serif;
   font-weight: 700;
 }
 hr.star-light,
@@ -52,13 +51,15 @@ hr.star-primary:after {
 hr.star-light {
   border-color: white;
 }
+/*about me star*/
 hr.star-light:after {
-  background-color: Orchid;
+  background-color: transparent;
   color: white;
 }
 hr.star-primary {
   border-color: #0073C4;
 }
+/*places i've been star*/
 hr.star-primary:after {
   background-color: white;
   color: #0073C4;
@@ -68,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: Orchid;
+  background: orchid;
   color: white;
 }
 header .container {
@@ -82,8 +83,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'Arvo', serif;
   font-weight: 700;
   font-size: 2em;
 }
@@ -105,8 +105,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #0073C4;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'Arvo', serif;
   font-weight: 700;
   border: none;
 }
@@ -144,7 +143,6 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  text-transform: uppercase;
   font-size: 10px;
   border-color: white;
 }
@@ -181,8 +179,9 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
+/*About me background*/
 section.success {
-  background: Orchid;
+  background: lightblue;
   color: white;
 }
 @media (max-width: 767px) {
@@ -203,6 +202,7 @@ section.success {
   max-width: 250px;
   margin: 0 auto;
 }
+/*modal hover*/
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
   position: absolute;
@@ -248,6 +248,7 @@ section.success {
   border-bottom: 1px solid #eeeeee;
 }
 .floating-label-form-group input,
+/*contact form input sections*/
 .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
@@ -452,6 +453,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
+/*modal escape background color*/
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
