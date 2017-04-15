@@ -182,7 +182,7 @@ section h2 {
 /*About me background*/
 section.success {
   background: lightblue;
-  color: white;
+  color: darkslategrey;
 }
 @media (max-width: 767px) {
   section {
@@ -248,7 +248,7 @@ section.success {
   border-bottom: 1px solid #eeeeee;
 }
 .floating-label-form-group input,
-/*contact form input sections*/
+/*contact form*/
 .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
@@ -257,7 +257,8 @@ section.success {
   border: none;
   border-radius: 0;
   font-size: 1.5em;
-  background: none;
+  background: white;
+  border-radius: 7%;
   box-shadow: none !important;
   resize: none;
 }
@@ -519,4 +520,9 @@ div#maincontent {
 }
 .img-circle{
   border-radius: 50%;
+}
+#contactSection {
+  background-color: lightblue;
+  border-radius: 45%;
+  padding: 5% 0;
 }
