@@ -258,7 +258,6 @@ section.success {
   border-radius: 0;
   font-size: 1.5em;
   background: white;
-  border-radius: 7%;
   box-shadow: none !important;
   resize: none;
 }
@@ -523,7 +522,6 @@ div#maincontent {
 }
 #contactSection {
   background-color: lightblue;
-  border-radius: 45%;
   padding: 5% 0;
 }
 hr.sectionChange {
