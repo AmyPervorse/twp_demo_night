@@ -144,7 +144,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/html.JPG" class="img-responsive" alt="Jamaica flag">
+                        <img src="img/portfolio/html.JPG" class="img-responsive" alt="HTML/CSS">
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
@@ -154,7 +154,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/javascript.JPG" class="img-responsive" alt="Mexico flag">
+                        <img src="img/portfolio/javascript.JPG" class="img-responsive" alt="Javascript">
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
@@ -164,7 +164,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/php.JPG" class="img-responsive" alt="Fiji flag">
+                        <img src="img/portfolio/php.JPG" class="img-responsive" alt="PHP">
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
@@ -174,7 +174,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/other.JPG" class="img-responsive" alt="New Zealand Flag">
+                        <img src="img/portfolio/other.JPG" class="img-responsive" alt="Other">
                     </a>
                 </div>
             </div>
@@ -282,19 +282,35 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Jamaica</h2>
+                            <h2>HTML/CSS</h2>
                             <hr>
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2f/a5/jamaica.jpg" class="img-responsive img-centered" alt="Jamaican beach">
-                            <p> Esse facilisis ante dictum vestibulum, nulla cras est rutrum nullam pede, quam lectus, magna accumsan tincidunt fringilla curabitur, wisi vehicula quis cras. Et vitae sed quis, laoreet pede, mollitia magna nec tellus purus sodales adipiscing, quis convallis unde nunc orci, consectetuer nulla ipsum aliquam. Aliquam fermentum aliquet a augue tristique, dapibus arcu ultricies, ut et ac adipiscing, dictumst vivamus amet lacus, amet eu tortor pellentesque.</p>
-                            <ul class="list-inline item-details">
-                                <li>Year Visited:
-                                    <strong>2007
-                                    </strong>
-                                </li>
-                                <li>Learn More About Jamaica <a href="http://www.jamaica-no-problem.com/about-jamaica.html" target="_blank">Here</a>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/htmlcode.JPG" class="img-responsive img-centered" alt="HTML Code">
+                              <h3 id="grabCodeOne" style="color: #0073C4;">CodeAcademy</h3>
+                              <p id= "grabCodeTwo"><b>Course: </b></p>
+                              <p id = "grabCodeThree"><b>Topics Covered: </b></p>
+                              <script>
+                              var codeHtmlOne = {
+                                learningCenter: "CodeAcademy",
+                                course: "Learn HTML & CSS",
+                                topicsCovered: "Fundamentals, Styling, Organizing, The CSS Box Model, CSS positioning, and HTML Tables"
+                              };
+                              document.getElementById("grabCodeOne").innerHTML = codeHtmlOne.learningCenter;
+                              document.getElementById("grabCodeTwo").innerHTML += codeHtmlOne.course;
+                              document.getElementById("grabCodeThree").innerHTML += codeHtmlOne.topicsCovered;
+                              </script>
+                              <h3 id="objectCodeOne" style="color: #0073C4;">Treehouse</h3>
+                              <p id= "objectCodeTwo"><b>Course: </b></p>
+                              <p id = "objectCodeThree"><b>Topics Covered: </b></p>
+                              <script>
+                              var codeHtmlTwo = {
+                                learningCenter: "TreeHouse",
+                                course: "How to Make a Website",
+                                topicsCovered: "Creating HTML content, customizing colors and fonts, styling web pages and navigation, adding pages to a website, responsive web design and testing, and debugging HTML and CSS problems"
+                              };
+                              document.getElementById("objectCodeOne").innerHTML = codeHtmlTwo.learningCenter;
+                              document.getElementById("objectCodeTwo").innerHTML += codeHtmlTwo.course;
+                              document.getElementById("objectCodeThree").innerHTML += codeHtmlTwo.topicsCovered;
+                              </script>
                         </div>
                     </div>
                 </div>
@@ -313,20 +329,36 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Mexico</h2>
+                            <h2>Javascript</h2>
                             <hr>
-                            <img src="http://blog.shoreexcursionsgroup.com/wp-content/uploads/2014/06/tulum-mexico-photo.jpg" class="img-responsive img-centered" alt="">
-                            <p>Magna egestas consequat donec, quo urna qui quam justo. Nisl nibh wisi non. Adipiscing ridiculus donec sed amet maecenas, leo velit ac ut integer amet, malesuada et vulputate blandit nulla porttitor. Sed nec turpis ut, quam donec laoreet. </p>
-                            <ul class="list-inline item-details">
-                              <li>Year Visited:
-                                  <strong>2008
-                                  </strong>
-                              </li>
-                              <li>Learn More About Mexico <a href="http://www.infoplease.com/country/mexico.html" target="_blank">Here</a>
-                              </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                            <img src="img/portfolio/javascriptcode.JPG" class="img-responsive img-centered" alt="Javascript Code">
+                            <h3 id="codeJavaOne" style="color: #0073C4;">CodeAcademy</h3>
+                            <p id= "codeJavaTwo"><b>Course: </b></p>
+                            <p id = "codeJavaThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var codeJavascriptOne = {
+                              learningCenter: "CodeAcademy",
+                              course: "Learn Javascript",
+                              topicsCovered: "Introduction to Javascript, control flow, functions and scope, arrays and loops, and Javascript and Jquery"
+                            };
+                            document.getElementById("codeJavaOne").innerHTML = codeJavascriptOne.learningCenter;
+                            document.getElementById("codeJavaTwo").innerHTML += codeJavascriptOne.course;
+                            document.getElementById("codeJavaThree").innerHTML += codeJavascriptOne.topicsCovered;
+                            </script>
+                            <h3 id="objectJavascriptOne" style="color: #0073C4;">Kahn Academy</h3>
+                            <p id= "objectJavascriptTwo"><b>Courses: </b></p>
+                            <p id = "objectJavascriptThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var codeHtmlTwo = {
+                              learningCenter: "Kahn Academy",
+                              course: "Hour of Code & Intro into Javascript: Drawing and Animation",
+                              topicsCovered: "Intro into programming, drawing basics, coloring, variables, animation basics, interactive programs, text and strings, functions, logic and if statments, debugging programs, looping, writing clean code, arrays, and objects"
+                            };
+                            document.getElementById("objectJavascriptOne").innerHTML = codeHtmlTwo.learningCenter;
+                            document.getElementById("objectJavascriptTwo").innerHTML += codeHtmlTwo.course;
+                            document.getElementById("objectJavascriptThree").innerHTML += codeHtmlTwo.topicsCovered;
+                            </script>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -344,20 +376,49 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Fiji</h2>
+                            <h2>PHP</h2>
                             <hr>
-                            <img src="http://cdn.newsapi.com.au/image/v1/ed36fd72d8bb5374944e62d7d0580df0?width=1024" class="img-responsive img-centered" alt="">
-                            <p>Viverra elit, wisi feugiat est, elementum massa nulla eget massa, a ac lorem tincidunt ad magna, lacinia arcu semper. Proin eget pellentesque est massa wisi sed. Sodales non, sem sit quis velit, eget luctus tortor nec metus, id phasellus. A ullamcorper, interdum risus congue vestibulum lectus vivamus, turpis porta ipsum feugiat aliquet. </p>
-                            <ul class="list-inline item-details">
-                              <li>Year Visited:
-                                  <strong>2009
-                                  </strong>
-                              </li>
-                              <li>Learn More About Fiji <a href="http://travel.nationalgeographic.com/travel/countries/fiji-islands-facts/" target="_blank">Here</a>
-                              </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                            <img src="img/portfolio/phpcode.JPG" class="img-responsive img-centered" alt="">
+                            <h3 id="codePhpOne" style="color: #0073C4;">CodeAcademy</h3>
+                            <p id= "codePhpTwo"><b>Course: </b></p>
+                            <p id = "codePhpThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var codingPhpOne = {
+                              learningCenter: "CodeAcademy",
+                              course: "PHP",
+                              topicsCovered: "Welcome to PHP, control flow: if/else, control flow: switch, arrays in PHP, loops: for and forEach, loops:while and do-while, and functions in PHP"
+                            };
+                            document.getElementById("codePhpOne").innerHTML = codingPhpOne.learningCenter;
+                            document.getElementById("codePhpTwo").innerHTML += codingPhpOne.course;
+                            document.getElementById("codePhpThree").innerHTML += codingPhpOne.topicsCovered;
+                            </script>
+                            <h3 id="objectPhpOne" style="color: #0073C4;">TreeHouse</h3>
+                            <p id= "objectPhpTwo"><b>Courses: </b></p>
+                            <p id = "objectPhpThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var codingPhpTwo = {
+                              learningCenter: "TreeHouse",
+                              course: "PHP Basics",
+                              topicsCovered: "Getting to know PHP, variables, operators, conditionals, comments, PHP on the web, and arrays"
+                            };
+                            document.getElementById("objectPhpOne").innerHTML = codingPhpTwo.learningCenter;
+                            document.getElementById("objectPhpTwo").innerHTML += codingPhpTwo.course;
+                            document.getElementById("objectPhpThree").innerHTML += codingPhpTwo.topicsCovered;
+                            </script>
+                            <h3 id="phpOne" style="color: #0073C4;">Youtube Playlist</h3>
+                            <p id= "phpTwo"><b>Course: </b></p>
+                            <p id = "phpThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var phpPhpOne = {
+                              learningCenter: "Youtube Playlist",
+                              course: "PHP",
+                              topicsCovered: "Introduction to PHP, installing local server, output in browser, variables, comments, functions, data types, arithmetic operators, assignment operators, and comparison operators"
+                            };
+                            document.getElementById("phpOne").innerHTML = phpPhpOne.learningCenter;
+                            document.getElementById("phpTwo").innerHTML += phpPhpOne.course;
+                            document.getElementById("phpThree").innerHTML += phpPhpOne.topicsCovered;
+                            </script>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -375,20 +436,30 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>New Zealand</h2>
+                            <h2>Other</h2>
                             <hr>
-                            <img src="img/portfolio/Tree.JPG" class="img-responsive img-centered" alt="">
-                            <p>Erat est urna tellus wisi, eget dolor consectetuer, ac pharetra condimentum. Nibh porta amet, molestie sed duis placerat eros, sed erat. Beatae scelerisque, turpis scelerisque lobortis ut porttitor tellus vitae, pulvinar vehicula metus commodo.</p>
-                            <ul class="list-inline item-details">
-                              <li>Year Visited:
-                                  <strong>2009
-                                  </strong>
-                              </li>
-                              <li>Learn More About New Zealand <a href="http://www.infoplease.com/country/new-zealand.html" target="_blank">Here</a>
-                              </li>
+                            <img src="img/portfolio/github.JPG" class="img-responsive img-centered" alt="Pushing to Github">
+                            <h3 id="githubOne" style="color: #0073C4;">Github</h3>
+                            <p id= "githubTwo"><b>Course: </b></p>
+                            <p id = "githubThree"><b>Topics Covered: </b></p>
+                            <script>
+                            var githubTutorial = {
+                              learningCenter: "Github",
+                              course: "Try Git",
+                              topicsCovered: "Initialize a repo, add, commit and push to Github"
+                            };
+                            document.getElementById("githubOne").innerHTML = githubTutorial.learningCenter;
+                            document.getElementById("githubTwo").innerHTML += githubTutorial.course;
+                            document.getElementById("githubThree").innerHTML += githubTutorial.topicsCovered;
+                            </script>
+                            <h3 style="color: #0073C4">Additional Learning</h3>
+                            <ul>
+                              <li>Atom tutorials</li>
+                              <li>Branching in Git</li>
+                              <li>Introduction to Salesforce</li>
+                              <li>Bootstrap tutorials</li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+                          </div>
                     </div>
                 </div>
             </div>

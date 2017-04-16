@@ -535,3 +535,7 @@ hr.sectionChange {
   border-style: inset;
   border-width: 1px;
 }
+li {
+  font-size: 20px;
+  list-style: none;
+}
